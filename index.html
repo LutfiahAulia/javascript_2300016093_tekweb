@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="profile-container">
+        <div class="photo frame">
+    </div>
+    
+</body>
+<body>
+    <img src="images (2).jpeg" width="400" height="500" />
+    <h1>about me</h1>
+    <p class="blue-text">hallo, aku lutfia. Aku seorang mahasiswi yang berkuliah di Universitas Ahmad Dahlan</p>
+    <h2>project</h2>
+    <p><a>project 1 title</a> = brief description of project 1 </p>
+    <p><a>project 2 title</a> = brief description of project 2 </p>
+<section>
+<section id="contact">
+    <h3>Contact</h3>
+    <p class="blue-text">Email: lutfiahaulia04@gmail.com</p>
+    <p class="blue-text">Instagram:<a href="https://www.instagram.com/ltfyaulia?igsh=MWltYjNtMWs3YjVoMQ%3D%3D&utm_source=qr" target="_blank" class="red-text">@ltfyaulia</a></p>
+</section>
+<div> 
+    <h2>To-Do List</h2>
+    <input type="text" id="todoInput" placeholder="Add a new task">
+    <button onclick="addTodo()">Add</button>
+    <ul id="todoList"></ul>
+</div>
+
+<div class="controls">
+    <label for="bgColor">Background Color:</label>
+    <input type="color" id="bgColor" onchange="changeBgColor()">
+
+    <label for="fontSize">Font Size:</label>
+    <input type="range" id="fontSize" min="14" max="24" onchange="changeFontSize()">
+
+    <label for="fontStyle">Font Style:</label>
+    <select id="fontStyle" onchange="changeFontStyle()">
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana">Verdana</option>
+    </select>
+
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
